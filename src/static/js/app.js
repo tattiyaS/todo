@@ -1,9 +1,14 @@
+function TodoApp() {
+    return <h3> Todo App </h3>
+}
+
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <TodoApp />
                     <TodoListCard />
                 </Col>
             </Row>
